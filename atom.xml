@@ -2,12 +2,12 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Shiori</title>
   
-  <subtitle>A small space on the internet</subtitle>
-  <link href="http://localhost:4000/atom.xml" rel="self"/>
+  <subtitle>A SMALL SPACE ON THE INTERNET</subtitle>
+  <link href="https://shioric.com/atom.xml" rel="self"/>
   
-  <link href="http://localhost:4000/"/>
+  <link href="https://shioric.com/"/>
   <updated>2026-10-12T01:30:00.000Z</updated>
-  <id>http://localhost:4000/</id>
+  <id>https://shioric.com/</id>
   
   <author>
     <name>Shiori</name>
@@ -17,92 +17,25 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Designing for Less</title>
-    <link href="http://localhost:4000/posts/Designing-for-Less/"/>
-    <id>http://localhost:4000/posts/Designing-for-Less/</id>
-    <published>2026-10-12T01:30:00.000Z</published>
+    <title>Testing math plug-in functioning</title>
+    <link href="https://shioric.com/posts/Test-Math/"/>
+    <id>https://shioric.com/posts/Test-Math/</id>
+    <published>2026-10-15T16:00:00.000Z</published>
     <updated>2026-10-12T01:30:00.000Z</updated>
     
-    <content type="html"><![CDATA[<p>A quiet reflection on what happens when we remove the unnecessary. Every interface is an argument about what matters, and the best ones argue quietly.</p><h2 id="The-problem-with-complexity"><a href="#The-problem-with-complexity" class="headerlink" title="The problem with complexity"></a>The problem with complexity</h2><p>There is a tendency to believe that better design requires more features. More options. More interactions. More things competing for attention.</p><p>But sometimes, the best improvement is simply knowing what to remove.</p><p>When everything is important, nothing is. A complex system creates cognitive load, and a distracted mind cannot do deep work<sup id="fnref-1"><a href="#fn-1">[1]</a></sup>. The cost is rarely visible on a feature list — it shows up as hesitation, as fatigue, as the quiet decision to close the tab and come back never.</p><blockquote><p>The solution isn&#39;t always to add more — it&#39;s to remove what doesn&#39;t serve the core purpose.</p></blockquote><h3 id="Where-the-load-comes-from"><a href="#Where-the-load-comes-from" class="headerlink" title="Where the load comes from"></a>Where the load comes from</h3><p>Complexity rarely arrives all at once. It accumulates through small, defensible decisions: one more settings panel, one more badge, one more way to share. Each addition is reasonable. Together they become noise.</p><p>Three signals usually indicate that a product has crossed the line:</p><ul><li>Users complete the task, but describe it as exhausting.</li><li>The onboarding takes longer than the task itself.</li><li>Features exist that the team cannot explain in one sentence.</li></ul><h2 id="Making-room-for-content"><a href="#Making-room-for-content" class="headerlink" title="Making room for content"></a>Making room for content</h2><p>The fix is not decoration — it is space. Whitespace is not empty; it is the material that gives content its shape. A page with a single column, a comfortable measure of about 70 characters per line, and a generous line height invites you to stay. A page crowded with widgets invites you to leave.</p><p>Practical rules that survive contact with real projects:</p><ol><li>One primary action per view. Everything else can be quieter.</li><li>Restrict color to meaning. If everything is blue, nothing is.</li><li>Let typography do the hierarchy work before reaching for borders and shadows.</li><li>Treat motion as feedback, never as entertainment.</li></ol><figure class="highlight css"><table><tr><td class="code"><pre><code class="hljs css"><span class="hljs-comment">/* 用留白与字重建立层级，而不是边框与阴影 */</span><br><span class="hljs-selector-class">.article</span> &#123;<br>  <span class="hljs-attribute">max-width</span>: <span class="hljs-number">720px</span>;<br>  <span class="hljs-attribute">margin-inline</span>: auto;<br>  <span class="hljs-attribute">font-size</span>: <span class="hljs-number">17px</span>;<br>  <span class="hljs-attribute">line-height</span>: <span class="hljs-number">1.85</span>;<br>&#125;<br><br><span class="hljs-selector-class">.article</span> <span class="hljs-selector-tag">h2</span> &#123;<br>  <span class="hljs-attribute">font-size</span>: <span class="hljs-number">28px</span>;<br>  <span class="hljs-attribute">font-weight</span>: <span class="hljs-number">600</span>;<br>  <span class="hljs-attribute">margin-top</span>: <span class="hljs-number">2.2em</span>;<br>&#125;<br></code></pre></td></tr></table></figure><p>The code above is unremarkable on purpose. Most of good layout is a handful of numbers, chosen calmly and applied consistently.</p><h2 id="Learning-to-leave-things-out"><a href="#Learning-to-leave-things-out" class="headerlink" title="Learning to leave things out"></a>Learning to leave things out</h2><p>The hardest discipline is refusing good ideas. A feature can be well-built, well-requested, and still wrong for the product. The test I return to is simple: does this help someone read, understand, or decide? If not, it is decoration — and decoration compounds<sup id="fnref-2"><a href="#fn-2">[2]</a></sup>.</p><table><thead><tr><th>Added element</th><th>Reads as</th><th>Usually worth it</th></tr></thead><tbody><tr><td>Progress bar</td><td>Orientation</td><td>Yes</td></tr><tr><td>Auto-playing carousel</td><td>Noise</td><td>No</td></tr><tr><td>Search</td><td>Escape hatch</td><td>Yes</td></tr><tr><td>Social widget row</td><td>Clutter</td><td>Rarely</td></tr></tbody></table><p>Removing things is uncomfortable because every removal deletes someone&#39;s favorite detail. But a design that tries to respect everyone ends up respecting no one&#39;s attention. Subtraction is not the absence of care — it is care, applied with an editor&#39;s hand.</p><p>Less noise. More reading.</p><section class="footnotes">  <p id="fn-1">Herbert Simon observed that a wealth of information creates a poverty of attention. <a href="#fnref-1">↩</a></p>  <p id="fn-2">Edward Tufte calls it "chartjunk" when it appears in graphics; the same logic applies to interfaces. <a href="#fnref-2">↩</a></p></section>]]></content>
+    <content type="html"><![CDATA[<p>这是一段用来检测数学公式插件生效的测试文本。</p><p>这是一段跨行公式：</p><p>$$\begin{aligned}t_{\text{rough}} &amp;= \frac{N}{300}, \\t_{\text{precise}} &amp;= \left\lceil \frac{C}{400} + \frac{W}{220} \right\rceil.\end{aligned}$$</p><p>这是一段行内公式: $E = mc^2,\;\mathrm{e}^{\mathrm{i}\pi} + 1 = 0$.</p><p>这是一段含大型记号的公式：</p><p>$$\int_{-\infty}^{\infty} e^{-x^2} \, \mathrm{d}x = \sqrt{\pi}.$$</p><p>$$\sum_{n=1}^{\infty} \frac{1}{n^2} = \frac{\pi^2}{6},\qquad\lim_{x \to 0} \frac{\sin x}{x} = 1.$$</p><p>这是一段含矩阵和对齐的公式：</p><p>$$A =\begin{pmatrix}1 &amp; 2 &amp; 3 \\4 &amp; 5 &amp; 6 \\7 &amp; 8 &amp; 9\end{pmatrix}.$$</p><p>$$\begin{aligned}(a+b)^2 &amp;= (a+b)(a+b) \\        &amp;= a^2 + 2ab + b^2.\end{aligned}$$</p><p>公式环境之外的$符号不受影响：代码块 <code>$$not math$$</code> 与行内代码 <code>$a_1$</code> 保持原样，正文里单独出现的$也不会被误判。</p>]]></content>
     
     
-    <summary type="html">A quiet reflection on what happens when we remove the unnecessary.</summary>
-    
-    
-    
-    <category term="Technology" scheme="http://localhost:4000/categories/Technology/"/>
-    
-    
-    <category term="Design" scheme="http://localhost:4000/tags/Design/"/>
-    
-    <category term="Minimalism" scheme="http://localhost:4000/tags/Minimalism/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>The Beauty of Doing Less</title>
-    <link href="http://localhost:4000/posts/The-Beauty-of-Doing-Less/"/>
-    <id>http://localhost:4000/posts/The-Beauty-of-Doing-Less/</id>
-    <published>2026-10-12T00:00:00.000Z</published>
-    <updated>2026-10-12T01:30:00.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>关于专注、创造与日常氛围的一些思考。做得更少不是懒惰，而是一种筛选：把有限的注意力留给真正值得的事情。</p><p>我们常把&quot;效率&quot;理解为&quot;更多&quot;——更多的任务、更快的节奏、更满的日程。但真正持续的产出，几乎总是来自相反的方向：更少的承诺，更深的投入。</p><h2 id="少即是秩序"><a href="#少即是秩序" class="headerlink" title="少即是秩序"></a>少即是秩序</h2><p>一天之中，真正重要的工作往往只有两三个小时。剩下的时间如果被会议和消息切碎，那两三个小时也会跟着消失。因此，&quot;做得更少&quot;的第一步是承认：注意力是稀缺资源，需要像预算一样管理。</p><blockquote><p>专注不是把所有事情做完，而是把最重要的事情做完。</p></blockquote><p>给一天留白，不是浪费。留白是缓冲，是思考得以发生的空间。一个排满的日程表看起来勤奋，实际上是把&quot;忙碌&quot;误当成了&quot;进展&quot;。</p><h2 id="三个简单的练习"><a href="#三个简单的练习" class="headerlink" title="三个简单的练习"></a>三个简单的练习</h2><p>如果想要开始实践&quot;少&quot;，可以从下面三件小事做起：</p><ol><li><strong>每天只定一件要事。</strong> 完成它，这一天就算成功。</li><li><strong>给通知做减法。</strong> 关掉所有不紧急的推送，让消息等你，而不是你等消息。</li><li><strong>给物品做减法。</strong> 桌面上只留下今天要用的东西，视线所及即心之所向。</li></ol><p>这些练习的共同点在于：它们不增加任何东西，只是移除干扰。移除之后，秩序会自己生长出来。</p><h2 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h2><p>少不是目的，而是手段。目的是把时间花在值得的事情上——一次认真的写作、一顿好好的晚餐、一段不看手机的散步。当你敢于对不重要的事情说不，你对重要事情的爱才会变得具体。</p><p>愿你也能在更少的琐事里，找到更多的自己。</p>]]></content>
-    
-    
-    <summary type="html">关于专注、创造与日常氛围的一些思考。</summary>
+    <summary type="html">数学公式插件生效检测</summary>
     
     
     
-    <category term="Journal" scheme="http://localhost:4000/categories/Journal/"/>
+    <category term="Technology" scheme="https://shioric.com/categories/Technology/"/>
     
     
-    <category term="Life" scheme="http://localhost:4000/tags/Life/"/>
+    <category term="Productivity" scheme="https://shioric.com/tags/Productivity/"/>
     
-    <category term="Focus" scheme="http://localhost:4000/tags/Focus/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Building a Personal Knowledge System</title>
-    <link href="http://localhost:4000/posts/Building-a-Personal-Knowledge-System/"/>
-    <id>http://localhost:4000/posts/Building-a-Personal-Knowledge-System/</id>
-    <published>2026-10-08T12:00:00.000Z</published>
-    <updated>2026-10-12T01:30:00.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>我的构建思路是，先跑起来，而不让自己陷入复杂的流程。知识管理的价值不在工具，而在一套可以坚持十年的简单习惯。</p><h2 id="为什么需要一套系统"><a href="#为什么需要一套系统" class="headerlink" title="为什么需要一套系统"></a>为什么需要一套系统</h2><p>读过的东西如果记不住、找不回，阅读的价值就会大打折扣。个人知识系统的目标很朴素：<strong>把分散的输入变成可检索的思考</strong>。它不需要复杂，但需要稳定——稳定到五年后你依然愿意打开它。</p><h2 id="我的三个原则"><a href="#我的三个原则" class="headerlink" title="我的三个原则"></a>我的三个原则</h2><ol><li><strong>收集要快。</strong> 灵感出现时，任何超过十秒的保存动作都是阻力。</li><li><strong>整理要慢。</strong> 每周花三十分钟回顾，比每天花十分钟折腾分类更有效。</li><li><strong>输出优先。</strong> 能写成文章的知识才算真正拥有，卡片只是草稿。</li></ol><h2 id="最小可用配置"><a href="#最小可用配置" class="headerlink" title="最小可用配置"></a>最小可用配置</h2><p>一个纯文本文件夹加一套命名规则，就能支撑起整个系统：</p><figure class="highlight text"><table><tr><td class="code"><pre><code class="hljs text">notes/<br>├── inbox/          # 未处理的快速收集<br>├── topics/         # 按主题归档的笔记<br>│   └── design/<br>├── journal/        # 每日回顾<br>└── publish/        # 已发布的文章<br></code></pre></td></tr></table></figure><p>文件名使用日期加主题，保证排序即时间线：</p><figure class="highlight yaml"><table><tr><td class="code"><pre><code class="hljs yaml"><span class="hljs-comment"># 命名规则示例</span><br><span class="hljs-number">2026-10-08</span><span class="hljs-string">-personal-knowledge-system.md</span><br><span class="hljs-number">2026-10-12</span><span class="hljs-string">-designing-for-less.md</span><br></code></pre></td></tr></table></figure><h2 id="自动化点滴"><a href="#自动化点滴" class="headerlink" title="自动化点滴"></a>自动化点滴</h2><p>用脚本把重复动作自动化，比如每周把 inbox 中超过七天的笔记提醒自己归档：</p><figure class="highlight js"><table><tr><td class="code"><pre><code class="hljs js"><span class="hljs-keyword">const</span> fs = <span class="hljs-built_in">require</span>(<span class="hljs-string">&#x27;fs&#x27;</span>);<br><span class="hljs-keyword">const</span> path = <span class="hljs-built_in">require</span>(<span class="hljs-string">&#x27;path&#x27;</span>);<br><br><span class="hljs-keyword">const</span> inbox = <span class="hljs-string">&#x27;notes/inbox&#x27;</span>;<br><span class="hljs-keyword">const</span> <span class="hljs-variable constant_">WEEK</span> = <span class="hljs-number">7</span> * <span class="hljs-number">24</span> * <span class="hljs-number">60</span> * <span class="hljs-number">60</span> * <span class="hljs-number">1000</span>;<br><br>fs.<span class="hljs-title function_">readdirSync</span>(inbox).<span class="hljs-title function_">forEach</span>(<span class="hljs-function">(<span class="hljs-params">file</span>) =&gt;</span> &#123;<br>  <span class="hljs-keyword">const</span> full = path.<span class="hljs-title function_">join</span>(inbox, file);<br>  <span class="hljs-keyword">const</span> age = <span class="hljs-title class_">Date</span>.<span class="hljs-title function_">now</span>() - fs.<span class="hljs-title function_">statSync</span>(full).<span class="hljs-property">mtimeMs</span>;<br>  <span class="hljs-keyword">if</span> (age &gt; <span class="hljs-variable constant_">WEEK</span>) &#123;<br>    <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;[review]&#x27;</span>, file);<br>  &#125;<br>&#125;);<br></code></pre></td></tr></table></figure><h2 id="一个阅读时间的估算公式"><a href="#一个阅读时间的估算公式" class="headerlink" title="一个阅读时间的估算公式"></a>一个阅读时间的估算公式</h2><p>本站的阅读时间就是按下面的式子估算的：</p><p>$$t &#x3D; \left\lceil \frac{C}{400} + \frac{W}{220} \right\rceil$$</p><p>其中 C 是中日韩字符数（按每分钟 400 字计），W 是西文单词数（按每分钟 220 词计），向上取整并保证最小值为 1 分钟。</p><p>如果把粒度放粗一些，还可以对比两种估算方式：</p><p>$$\begin{aligned}t_{\text{rough}} &amp;&#x3D; \frac{N}{300} \\t_{\text{precise}} &amp;&#x3D; \left\lceil \frac{C}{400} + \frac{W}{220} \right\rceil\end{aligned}$$</p><p>两者通常相差不大；当一篇文章的代码块占比很高时，精确式会更接近真实阅读体验。</p><h2 id="工具不重要，节奏才重要"><a href="#工具不重要，节奏才重要" class="headerlink" title="工具不重要，节奏才重要"></a>工具不重要，节奏才重要</h2><table><thead><tr><th>环节</th><th>最简方案</th><th>进阶方案</th></tr></thead><tbody><tr><td>收集</td><td>系统备忘录</td><td>剪藏插件</td></tr><tr><td>组织</td><td>文件夹</td><td>双链笔记</td></tr><tr><td>回顾</td><td>每周固定时段</td><td>间隔重复</td></tr><tr><td>输出</td><td>博客</td><td>公开数字花园</td></tr></tbody></table><p>大多数人放弃知识管理，不是因为工具不够好，而是因为流程太复杂。先让系统小到不可能失败，再谈优化。</p><blockquote><p>最好的系统，是你愿意一直用的那一个。</p></blockquote>]]></content>
-    
-    
-    <summary type="html">我的构建思路是，先跑起来，而不让自己陷入复杂的流程。</summary>
-    
-    
-    
-    <category term="Technology" scheme="http://localhost:4000/categories/Technology/"/>
-    
-    
-    <category term="Productivity" scheme="http://localhost:4000/tags/Productivity/"/>
-    
-    <category term="Notes" scheme="http://localhost:4000/tags/Notes/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Notes From an Ordinary Day</title>
-    <link href="http://localhost:4000/posts/Notes-From-an-Ordinary-Day/"/>
-    <id>http://localhost:4000/posts/Notes-From-an-Ordinary-Day/</id>
-    <published>2026-10-02T10:30:00.000Z</published>
-    <updated>2026-10-12T01:30:00.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>一个安静的下午，关于生活碎片的观察。没有大事发生，但回头看，正是这些碎片组成了生活本身。</p><p>下午三点，阳光斜斜地落在窗台的绿植上。叶子的影子投在墙上，风一来就轻轻晃动，像一种不需要语言的时间刻度。</p><p><img src="/images/thumb-plant.svg" alt="窗边的绿植，和它借来的光影。"></p><p>我给自己泡了一杯茶，坐在桌子前什么都不做。起初有点不习惯——总觉得应该打开电脑&quot;做点什么&quot;。十分钟后，那种焦躁慢慢退去，取而代之的是一种久违的安静。</p><h2 id="观察到的几件小事"><a href="#观察到的几件小事" class="headerlink" title="观察到的几件小事"></a>观察到的几件小事</h2><ul><li>楼下的猫在同一个位置晒太阳，换了个姿势，仅此而已。</li><li>隔壁传来断断续续的钢琴声，弹的人似乎在练习同一小节。</li><li>傍晚的光从金色变成橘色，只用了二十分钟。</li></ul><p>这些事情不值得发朋友圈，也不构成任何&quot;素材&quot;。但把它们写下来之后，这一天就变得不一样了——它被看见了。</p><h2 id="为什么记录"><a href="#为什么记录" class="headerlink" title="为什么记录"></a>为什么记录</h2><p>我们总觉得生活要&quot;有意义&quot;才值得记录。但记录本身就会创造意义。写下琐碎，琐碎就有了形状；写下平凡，平凡就成了证据——证明这个普通的日子，我确实认真地度过。</p><blockquote><p>生活不在别处，就在这些被随手记下的瞬间里。</p></blockquote><p>晚上合上本子的时候，我想，也许幸福就是这样的：不多，也不少，刚刚好够写满一页纸。</p>]]></content>
-    
-    
-    <summary type="html">一个安静的下午，关于生活碎片观察。</summary>
-    
-    
-    
-    <category term="Life" scheme="http://localhost:4000/categories/Life/"/>
-    
-    
-    <category term="Journal" scheme="http://localhost:4000/tags/Journal/"/>
+    <category term="Notes" scheme="https://shioric.com/tags/Notes/"/>
     
   </entry>
   
