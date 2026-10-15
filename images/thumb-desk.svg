@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" role="img" aria-label="Laptop and coffee on a dark desk">
+  <rect width="480" height="360" fill="#E8E2D6"/>
+  <rect y="216" width="480" height="144" fill="#39322B"/>
+  <rect y="216" width="480" height="6" fill="#4A4138"/>
+  <circle cx="382" cy="88" r="52" fill="#F3EDDF" opacity="0.55"/>
+
+  <g>
+    <rect x="176" y="118" width="168" height="102" rx="7" fill="#26221E"/>
+    <rect x="184" y="127" width="152" height="84" rx="3" fill="#3B4438"/>
+    <path d="M184 168 L206 143 L238 176 L262 150 L300 190 L336 190 L336 190 L184 190 Z" fill="#4E5A49" opacity="0.85"/>
+    <circle cx="296" cy="148" r="10" fill="#E9E4D8" opacity="0.8"/>
+    <path d="M160 220 L360 220 L344 232 L176 232 Z" fill="#1D1A16"/>
+  </g>
+
+  <g>
+    <path d="M110 172 L150 172 L146 214 L114 214 Z" fill="#5267D9" opacity="0.9"/>
+    <path d="M150 178 C160 178 160 196 150 196" fill="none" stroke="#5267D9" stroke-width="6" opacity="0.9"/>
+    <ellipse cx="130" cy="172" rx="20" ry="5" fill="#7C8BD9"/>
+    <path d="M122 156 C120 150 124 148 122 142 M134 156 C132 150 136 148 134 142" stroke="#B9B2A2" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.7"/>
+  </g>
+
+  <ellipse cx="240" cy="306" rx="200" ry="10" fill="#2A241F" opacity="0.55"/>
+</svg>

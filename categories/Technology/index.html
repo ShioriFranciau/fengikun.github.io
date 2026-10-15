@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+
+  <title>Shiori</title>
+  <meta name="description" content="记录技术、设计，以及生活中那些值得被记住的瞬间。">
+  <meta name="author" content="Shiori">
+  <meta name="generator" content="Hexo  · Shiori theme">
+  <link rel="canonical" href="http://localhost:4000/categories/Technology/">
+
+  
+  <meta property="og:image" content="http://localhost:4000/images/hero.svg">
+  <meta name="twitter:card" content="summary_large_image">
+  
+  <meta property="og:site_name" content="Shiori">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Shiori">
+  <meta property="og:description" content="记录技术、设计，以及生活中那些值得被记住的瞬间。">
+  <meta property="og:url" content="http://localhost:4000/categories/Technology/">
+  
+  <meta name="twitter:title" content="Shiori">
+  <meta name="twitter:description" content="记录技术、设计，以及生活中那些值得被记住的瞬间。">
+
+  
+  <link rel="icon" href="/images/favicon.svg" type="image/svg+xml">
+  
+  
+  <link rel="alternate" type="application/atom+xml" title="Shiori" href="/atom.xml">
+  
+
+  <script>
+    /* 首屏绘制前确定主题：URL 参数 → 本地偏好 → 系统偏好，避免明暗闪烁 */
+    (function () {
+      try {
+        var saved = localStorage.getItem('shiori-theme');
+        var theme = (saved === 'dark' || saved === 'light')
+          ? saved
+          : (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+        try {
+          var q = new URLSearchParams(location.search).get('theme');
+          if (q === 'dark' || q === 'light') theme = q;
+        } catch (e) { /* 忽略 */ }
+        document.documentElement.setAttribute('data-theme', theme);
+      } catch (e) { /* 忽略 */ }
+    })();
+  </script>
+
+  <link rel="stylesheet" href="/css/tokens.css">
+  <link rel="stylesheet" href="/css/base.css">
+  <link rel="stylesheet" href="/css/layout.css">
+  <link rel="stylesheet" href="/css/components.css">
+  <link rel="stylesheet" href="/css/article.css">
+  <link rel="stylesheet" href="/css/pages.css">
+  <link rel="stylesheet" href="/css/search.css">
+  <link rel="stylesheet" href="/css/highlight.css">
+  
+</head>
+
+<body data-code-copy data-label="复制代码" data-copied="已复制" data-footnote-pop>
+  <a class="skip-link" href="#main">跳到主要内容</a>
+  
+
+  
+<header class="site-header">
+  <div class="page-container header-inner">
+    <a class="site-logo" href="/" rel="home">shiori.</a>
+
+    <div class="header-right">
+      <nav class="site-nav" id="site-nav" aria-label="主导航">
+        <ul class="nav-list">
+          
+          <li><a class="nav-link" href="/">Blog</a></li>
+          
+          <li><a class="nav-link" href="/archives">Archive</a></li>
+          
+          <li><a class="nav-link" href="/about">About</a></li>
+          
+        </ul>
+
+        <ul class="nav-mobile-only">
+          <li>
+            <button type="button" class="icon-btn" data-search-open aria-label="打开搜索">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.5" y2="16.5"/></svg>
+              <span>搜索文章…</span>
+            </button>
+          </li>
+          <li>
+            <button type="button" class="icon-btn" data-theme-toggle aria-label="切换深色 / 浅色模式">
+              <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+              <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><line x1="12" y1="1.5" x2="12" y2="3.5"/><line x1="12" y1="20.5" x2="12" y2="22.5"/><line x1="4.6" y1="4.6" x2="6" y2="6"/><line x1="18" y1="18" x2="19.4" y2="19.4"/><line x1="1.5" y1="12" x2="3.5" y2="12"/><line x1="20.5" y1="12" x2="22.5" y2="12"/><line x1="4.6" y1="19.4" x2="6" y2="18"/><line x1="18" y1="6" x2="19.4" y2="4.6"/></svg>
+              <span>切换深色 / 浅色模式</span>
+            </button>
+          </li>
+        </ul>
+      </nav>
+
+      <button type="button" class="icon-btn nav-desktop-only" data-search-open aria-label="打开搜索">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.5" y2="16.5"/></svg>
+      </button>
+
+      <button type="button" class="icon-btn nav-desktop-only" data-theme-toggle aria-label="切换深色 / 浅色模式">
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><line x1="12" y1="1.5" x2="12" y2="3.5"/><line x1="12" y1="20.5" x2="12" y2="22.5"/><line x1="4.6" y1="4.6" x2="6" y2="6"/><line x1="18" y1="18" x2="19.4" y2="19.4"/><line x1="1.5" y1="12" x2="3.5" y2="12"/><line x1="20.5" y1="12" x2="22.5" y2="12"/><line x1="4.6" y1="19.4" x2="6" y2="18"/><line x1="18" y1="6" x2="19.4" y2="4.6"/></svg>
+      </button>
+
+      <button type="button" class="icon-btn menu-btn" data-menu-toggle aria-expanded="false" aria-controls="site-nav" aria-label="打开菜单">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><line x1="4" y1="7" x2="20" y2="7"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="17" x2="20" y2="17"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+
+  <main id="main" class="site-main">
+    <div class="page-container list-page">
+  <header class="page-head">
+    <p class="page-eyebrow">分类</p>
+    <h1 class="page-title">Technology</h1>
+    <p class="page-sub">2 篇文章</p>
+  </header>
+
+  
+  <div class="post-list">
+    
+    
+<article class="post-item">
+  <span class="post-item-date">2026.10.12</span>
+
+  
+  <a class="post-item-thumb" href="/posts/Designing-for-Less/" tabindex="-1" aria-hidden="true">
+    <img src="/images/thumb-desk.svg" alt="" loading="lazy" width="128" height="96">
+  </a>
+  
+
+  <div class="post-item-body">
+    <h2 class="post-item-title">
+      <a href="/posts/Designing-for-Less/">Designing for Less</a>
+    </h2>
+    <p class="post-item-excerpt">A quiet reflection on what happens when we remove the unnecessary.</p>
+    <p class="post-item-meta">
+      
+      <a class="chip" href="/categories/Technology/">Technology</a>
+      
+      
+      <span class="dot" aria-hidden="true">·</span>
+      <span>2 分钟阅读</span>
+      
+    </p>
+  </div>
+</article>
+
+    
+    
+<article class="post-item">
+  <span class="post-item-date">2026.10.08</span>
+
+  
+  <a class="post-item-thumb" href="/posts/Building-a-Personal-Knowledge-System/" tabindex="-1" aria-hidden="true">
+    <img src="/images/thumb-desk.svg" alt="" loading="lazy" width="128" height="96">
+  </a>
+  
+
+  <div class="post-item-body">
+    <h2 class="post-item-title">
+      <a href="/posts/Building-a-Personal-Knowledge-System/">Building a Personal Knowledge System</a>
+    </h2>
+    <p class="post-item-excerpt">我的构建思路是，先跑起来，而不让自己陷入复杂的流程。</p>
+    <p class="post-item-meta">
+      
+      <a class="chip" href="/categories/Technology/">Technology</a>
+      
+      
+      <span class="dot" aria-hidden="true">·</span>
+      <span>2 分钟阅读</span>
+      
+    </p>
+  </div>
+</article>
+
+    
+  </div>
+  
+
+  
+
+</div>
+
+  </main>
+
+  
+<footer class="site-footer">
+  <div class="page-container footer-inner">
+    <div class="footer-left">
+      
+      <p class="footer-note">Thanks for stopping by.</p>
+      
+      <p class="footer-copy">© 2026 Shiori · Built with curiosity.</p>
+    </div>
+
+    <div class="footer-social">
+      
+      <a class="icon-btn" href="/atom.xml" aria-label="RSS" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 11a9 9 0 0 1 9 9"/><path d="M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1.6" fill="currentColor" stroke="none"/></svg>
+      </a>
+      
+      
+      <a class="icon-btn" href="https://github.com/your-name" aria-label="github" target="_blank" rel="noopener nofollow">
+        
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.48 2 2 6.58 2 12.25c0 4.53 2.87 8.37 6.84 9.72.5.1.68-.22.68-.49 0-.24-.01-.88-.01-1.72-2.78.62-3.37-1.37-3.37-1.37-.45-1.18-1.11-1.5-1.11-1.5-.91-.63.07-.62.07-.62 1 .07 1.53 1.06 1.53 1.06.9 1.57 2.36 1.12 2.94.86.09-.67.35-1.12.63-1.38-2.22-.26-4.56-1.14-4.56-5.07 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.7 0 0 .84-.28 2.75 1.05a9.36 9.36 0 0 1 5 0c1.91-1.33 2.75-1.05 2.75-1.05.55 1.4.2 2.44.1 2.7.64.72 1.03 1.63 1.03 2.75 0 3.94-2.34 4.8-4.57 5.06.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.81 0 .27.18.6.69.49A10.03 10.03 0 0 0 22 12.25C22 6.58 17.52 2 12 2z"/></svg>
+        
+      </a>
+      
+      <a class="icon-btn" href="mailto:hi@example.com" aria-label="email">
+        
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><polyline points="3 7 12 13 21 7"/></svg>
+        
+      </a>
+      
+    </div>
+  </div>
+</footer>
+
+
+  
+  <dialog id="search-dialog" class="search-dialog" aria-label="站内搜索">
+  <div class="search-panel" data-search-panel>
+  <div class="search-box">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.5" y2="16.5"/></svg>
+    <input type="search" data-search-input
+      placeholder="搜索文章…"
+      aria-label="打开搜索"
+      autocomplete="off" spellcheck="false">
+    <kbd>ESC</kbd>
+  </div>
+  <div class="search-results" data-search-results></div>
+  <div class="search-status" data-search-status hidden></div>
+</div>
+
+  <footer class="search-foot">
+    <span><kbd>↑</kbd> <kbd>↓</kbd> 选择</span>
+    <span><kbd>↵</kbd> 打开</span>
+    <span><kbd>ESC</kbd> 关闭</span>
+  </footer>
+</dialog>
+
+  
+
+  
+  <button type="button" class="back-to-top" id="back-to-top" aria-label="返回顶部">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
+  
+
+  
+
+<script>
+  window.SHIORI_SEARCH = {
+    url: '/search.json',
+    root: '/',
+    emptyText: '没有找到相关文章',
+    loadingText: '正在加载索引…'
+  };
+</script>
+<script src="/js/search.js" defer></script>
+
+<script src="/js/main.js" defer></script>
+
+</body>
+</html>

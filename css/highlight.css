@@ -1,0 +1,73 @@
+/* =============================================================
+ * Shiori · 代码高亮
+ * 配色引用 tokens.css 中的 --hl-* 变量，深浅色自动切换。
+ * 需要站点配置 highlight.hljs: true（输出 hljs-* 类而非内联颜色）。
+ * ============================================================= */
+
+.hljs {
+  color: var(--hl-text);
+}
+
+.hljs-comment,
+.hljs-quote {
+  color: var(--hl-comment);
+  font-style: italic;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-literal,
+.hljs-doctag,
+.hljs-name,
+.hljs-strong,
+.hljs-formula {
+  color: var(--hl-keyword);
+}
+
+.hljs-string,
+.hljs-regexp,
+.hljs-addition,
+.hljs-link {
+  color: var(--hl-string);
+}
+
+.hljs-number,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-selector-attr,
+.hljs-selector-pseudo,
+.hljs-meta .hljs-string {
+  color: var(--hl-number);
+}
+
+.hljs-title,
+.hljs-title.function_,
+.hljs-title.class_,
+.hljs-title.class_.inherited__,
+.hljs-title.function_.inherited__,
+.hljs-section {
+  color: var(--hl-title);
+  font-weight: 600;
+}
+
+.hljs-attr,
+.hljs-property,
+.hljs-attribute,
+.hljs-meta {
+  color: var(--hl-attr);
+}
+
+.hljs-built_in,
+.hljs-type,
+.hljs-selector-id,
+.hljs-selector-class {
+  color: var(--hl-built);
+}
+
+.hljs-deletion {
+  color: var(--hl-deleted);
+}
+
+.hljs-emphasis { font-style: italic; }

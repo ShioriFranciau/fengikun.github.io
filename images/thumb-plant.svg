@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" role="img" aria-label="Plant by a sunny window">
+  <rect width="480" height="360" fill="#EDE8DC"/>
+  <path d="M96 0 L336 0 L276 360 L36 360 Z" fill="#F5F0E2" opacity="0.85"/>
+  <path d="M180 0 L236 0 L196 360 L140 360 Z" fill="#FBF7EA" opacity="0.6"/>
+  <rect y="252" width="480" height="108" fill="#C9BFA9"/>
+  <rect y="252" width="480" height="6" fill="#B5AA92"/>
+
+  <g>
+    <path d="M236 168 C236 168 214 150 218 122 C244 128 246 156 236 168 Z" fill="#66795A"/>
+    <path d="M244 162 C244 162 268 148 268 118 C240 122 234 150 244 162 Z" fill="#55684C"/>
+    <path d="M240 176 C240 176 226 160 200 158 C204 184 232 192 240 176 Z" fill="#75886A"/>
+    <path d="M246 172 C246 172 262 156 288 158 C284 184 254 190 246 172 Z" fill="#4C5E44"/>
+    <path d="M242 170 L240 214 L252 214 L248 170 Z" fill="#5E7152"/>
+    <path d="M216 214 L274 214 L266 262 L226 262 Z" fill="#B06A50"/>
+    <rect x="210" y="210" width="70" height="10" rx="3" fill="#9C5B43"/>
+  </g>
+
+  <ellipse cx="244" cy="288" rx="70" ry="8" fill="#B0A58D" opacity="0.55"/>
+</svg>

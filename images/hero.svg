@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 660" role="img" aria-label="Calm sea with a distant sailboat">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E4E9F1"/>
+      <stop offset="0.62" stop-color="#F1EEE7"/>
+      <stop offset="1" stop-color="#ECE7DC"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#AEBECD"/>
+      <stop offset="1" stop-color="#8CA2B6"/>
+    </linearGradient>
+    <linearGradient id="far" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#B4BECF"/>
+      <stop offset="1" stop-color="#C7CDD9"/>
+    </linearGradient>
+    <linearGradient id="near" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#94A2B8"/>
+      <stop offset="1" stop-color="#AEBECD"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="880" height="660" fill="url(#sky)"/>
+  <circle cx="620" cy="170" r="52" fill="#F7F1E4" opacity="0.85"/>
+  <circle cx="620" cy="170" r="86" fill="#F7F1E4" opacity="0.28"/>
+
+  <path d="M0 306 L150 246 L296 296 L452 232 L610 290 L748 240 L880 284 L880 356 L0 356 Z" fill="url(#far)" opacity="0.75"/>
+  <path d="M0 336 L118 292 L268 330 L420 276 L588 326 L726 284 L880 322 L880 372 L0 372 Z" fill="url(#near)" opacity="0.8"/>
+
+  <rect y="352" width="880" height="308" fill="url(#sea)"/>
+  <rect y="352" width="880" height="3" fill="#F5F1E8" opacity="0.55"/>
+
+  <ellipse cx="620" cy="382" rx="120" ry="5" fill="#F5F1E8" opacity="0.22"/>
+  <ellipse cx="240" cy="470" rx="180" ry="6" fill="#E7ECF2" opacity="0.18"/>
+  <ellipse cx="600" cy="540" rx="220" ry="7" fill="#E7ECF2" opacity="0.14"/>
+
+  <g transform="translate(438 420)">
+    <path d="M0 44 L44 44 L38 54 L7 54 Z" fill="#41506A"/>
+    <path d="M22 2 C31 16 31 34 22 44 L22 2 Z" fill="#F8F5EE"/>
+    <path d="M20 6 C12 18 12 36 20 44 Z" fill="#DDE1E9"/>
+    <line x1="22" y1="2" x2="22" y2="44" stroke="#41506A" stroke-width="1.4"/>
+  </g>
+  <ellipse cx="460" cy="480" rx="34" ry="3.6" fill="#6E86A0" opacity="0.5"/>
+</svg>
