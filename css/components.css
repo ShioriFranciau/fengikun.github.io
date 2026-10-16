@@ -60,7 +60,7 @@
   width: 128px;
   aspect-ratio: 4 / 3;
   object-fit: cover;
-  border-radius: 8px;
+  /* border-radius: 8px; */
 }
 
 .post-item-title {
@@ -189,7 +189,7 @@ a.chip:hover { background: var(--accent-soft-strong); }
 .post-nav-card {
   display: block;
   border: 1px solid var(--border);
-  border-radius: var(--radius-md);
+  /* border-radius: var(--radius-md); */
   padding: var(--space-2) var(--space-3);
   transition: border-color 0.15s ease;
 }

@@ -139,7 +139,7 @@
 /* ---------- Hero ---------- */
 .hero {
   display: grid;
-  grid-template-columns: 1.05fr 0.95fr;
+  grid-template-columns: minmax(0, 1.05fr) auto;
   gap: clamp(40px, 6vw, 88px);
   align-items: center;
   padding: clamp(56px, 9vh, 100px) 0 var(--space-5);
@@ -188,11 +188,12 @@
 .hero-action:hover svg { transform: translateY(3px); }
 
 .hero-media img {
-  width: 100%;
-  height: auto;
-  aspect-ratio: 4 / 3;
-  object-fit: cover;
-  border-radius: var(--radius-md);
+  /* 只固定高，宽随图片比例自适应；max-width 防止极端比例的图挤压文字 */
+  height: clamp(280px, 30vw, 380px);
+  width: auto;
+  max-width: min(46vw, 600px);
+  object-fit: contain;
+  /* border-radius: var(--radius-md); */
 }
 
 @media (max-width: 640px) {

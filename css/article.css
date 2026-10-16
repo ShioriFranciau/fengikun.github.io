@@ -164,7 +164,7 @@
 .post-cover {
   width: 100%;
   margin-top: var(--space-4);
-  border-radius: var(--radius-md);
+  /* border-radius: var(--radius-md); */
 }
 
 /* ---------- 正文排版 ---------- */
@@ -215,7 +215,7 @@
 
 .article-body img {
   margin-inline: auto;
-  border-radius: var(--radius-md);
+  /* border-radius: var(--radius-md); */
 }
 
 .article-body figure { margin-block: 2em; }
@@ -367,7 +367,7 @@
   position: relative;
   margin-block: 2em;
   background: var(--code-bg);
-  border-radius: var(--radius-md);
+  /* border-radius: var(--radius-md); */
   overflow: hidden;
 }
 
@@ -398,7 +398,7 @@ figure.highlight .code pre { padding: 16px 18px; }
 .article-body > pre,
 .article-body > p > pre {
   background: var(--code-bg);
-  border-radius: var(--radius-md);
+  /* border-radius: var(--radius-md); */
   padding: 16px 20px;
   overflow-x: auto;
 }
