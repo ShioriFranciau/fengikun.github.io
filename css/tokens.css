@@ -49,8 +49,10 @@
   --space-3: 24px;
   --space-4: 40px;
   --space-5: 88px;
-  --radius-sm: 6px;
-  --radius-md: 12px;
+  /* --radius-sm: 6px;
+  --radius-md: 12px; */
+  --radius-sm: 0;
+  --radius-md: 0;
   --radius-full: 999px;
   --content-width: 720px;
   --page-width: 1120px;
